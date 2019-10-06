@@ -5,7 +5,6 @@ using UnityEngine;
 public class BeatLessGameManager : MonoBehaviour
 {
 	public GameObject bob;
-	public int hp;
 
 	private int trackCountTotal = 5;
 	private List<bool> trackEnabled;
@@ -23,7 +22,7 @@ public class BeatLessGameManager : MonoBehaviour
     public bool isDownBeat { get { return trackCurrentBeatNumber % 4 == 1; } }
 
     private int trackCalculatedBeatNumber { get { return Mathf.FloorToInt(trackPlayTime / beatLength); } }
-
+	public int hp;
 	void Start()
 	{
 		// SetCursorEnabled(false);
@@ -33,7 +32,6 @@ public class BeatLessGameManager : MonoBehaviour
 		}
 
 		beatLength = 60f / firstTrackBPM;
-		
 		hp = 1;
 	}
 
@@ -48,10 +46,10 @@ public class BeatLessGameManager : MonoBehaviour
 		{
 			trackLastBeatNumber = trackCurrentBeatNumber;
 			trackCurrentBeatNumber = trackCalculatedBeatNumber;
-			//Debug.Log("Beat Number: " + trackCurrentBeatNumber);
+			Debug.Log("Beat Number: " + trackCurrentBeatNumber);
 			if(isDownBeat)
 			{
-				//Debug.Log("Downbeetz");
+				Debug.Log("Downbeetz");
 			}
 		}
 	}

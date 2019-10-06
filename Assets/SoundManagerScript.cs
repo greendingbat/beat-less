@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoundManagerScript : MonoBehaviour
 {
@@ -86,6 +87,7 @@ public class SoundManagerScript : MonoBehaviour
 		if (hp == 0) {
 			musicTracks[0].volume = 0;
 			print("GAME OVER");
+			SceneManager.LoadScene("game_over");
 		} else if (hp == 1) {
 			musicTracks[1].volume = 0;
 		} else {
