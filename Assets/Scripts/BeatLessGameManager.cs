@@ -19,7 +19,9 @@ public class BeatLessGameManager : MonoBehaviour
 	public int trackLastBeatNumber = 0;
 	public int trackCurrentBeatNumber = 0;
 
-    public bool isDownBeat { get { return trackCurrentBeatNumber % 4 == 1; } }
+	public bool isDownBeat { get { return trackCurrentBeatNumber % 4 == 1; } }
+	public bool downBeatEventEntered = false;
+	public bool downBeatEventExited = false;
 
     private int trackCalculatedBeatNumber { get { return Mathf.FloorToInt(trackPlayTime / beatLength); } }
 	public int hp;
@@ -38,6 +40,7 @@ public class BeatLessGameManager : MonoBehaviour
 	void Update()
 	{
 		SyncBeatNumber();
+		DownBeatEvents();
 	}
 
 	private void SyncBeatNumber()
@@ -54,8 +57,43 @@ public class BeatLessGameManager : MonoBehaviour
 		}
 	}
 
+	public delegate void DownBeatEnterDelegate();
+	public static event DownBeatEnterDelegate OnDownBeatEnter;
 
+	public delegate void DownBeatStayDelegate();
+	public static event DownBeatStayDelegate OnDownBeatStay;
 
+	public delegate void DownBeatExitDelegate();
+	public static event DownBeatExitDelegate OnDownBeatExit;
+
+	private void DownBeatEvents()
+	{
+		if (isDownBeat)
+		{
+			if (downBeatEventEntered)
+			{
+				if (OnDownBeatStay != null)
+					OnDownBeatStay();
+			}
+			else
+			{
+				if (OnDownBeatEnter != null)
+					OnDownBeatEnter();
+				downBeatEventEntered = true;
+			}
+		}
+		else
+		{
+			if (downBeatEventExited)
+			{
+				downBeatEventEntered = false;
+			}
+			else
+			{
+				downBeatEventExited = true;
+			}
+		}
+	}
 
 	private void SetCursorEnabled(bool enable)
 	{
