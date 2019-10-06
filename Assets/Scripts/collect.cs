@@ -21,7 +21,7 @@ public class collect : MonoBehaviour
     {
         if (collect.gameObject.tag == "Player")
         {
-           gameObject.SetActive(false);
+			gameObject.SetActive(false);
         }
     }
 }

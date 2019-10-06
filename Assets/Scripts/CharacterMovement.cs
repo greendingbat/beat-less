@@ -33,9 +33,12 @@ public class CharacterMovement : MonoBehaviour
 	[SerializeField] public bool grounded = false;
 	[SerializeField] public float lastGroundedTime = 0f;
 	[SerializeField] public Vector3 previousPosition;
+<<<<<<< HEAD
 	public bool inDamage;
 	public SoundManagerScript sms;
 	public BeatLessGameManager blgm;
+=======
+>>>>>>> c4a5e51e7d12f9e5866c68fcec57958bb383eacd
 
 	public Vector3 velocity { get { return calculatedVelocity; } }
 
@@ -57,23 +60,26 @@ public class CharacterMovement : MonoBehaviour
 		rb.MovePosition(transform.position + new Vector3(calculatedVelocity.x, calculatedVelocity.y, 0f));
 		previousPosition = transform.position;
 		ResetStates();
+<<<<<<< HEAD
 		inDamage = false;
+=======
+>>>>>>> c4a5e51e7d12f9e5866c68fcec57958bb383eacd
 	}
 
     void OnTriggerEnter(Collider hit)
     {
         if (hit.gameObject.tag == "KILLBOX")
         {
+<<<<<<< HEAD
 			if (inDamage) {
 				return;
 			}
 			inDamage = true;
+=======
+>>>>>>> c4a5e51e7d12f9e5866c68fcec57958bb383eacd
             // teleport back to beginning if you fall off
             transform.position = spawnpoint.position;
             vertVelocity = Vector3.zero;
-			blgm.hp -= 1;
-			sms.playerHit(blgm.hp);
-			
         }
 
     }
