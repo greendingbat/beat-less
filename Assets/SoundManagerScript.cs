@@ -59,7 +59,7 @@ public class SoundManagerScript : MonoBehaviour
 			}
 		} */
 		
-		if (Input.inputString == "z" && dummyHP >= 0) {
+		if (Input.inputString == "z" && dummyHP > 0) {
 			dummyHP --;
 			playerHit(dummyHP);
 		} else if (Input.inputString == "x" && dummyHP < 5) {

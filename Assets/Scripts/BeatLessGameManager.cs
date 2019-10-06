@@ -45,10 +45,10 @@ public class BeatLessGameManager : MonoBehaviour
 		{
 			trackLastBeatNumber = trackCurrentBeatNumber;
 			trackCurrentBeatNumber = trackCalculatedBeatNumber;
-			Debug.Log("Beat Number: " + trackCurrentBeatNumber);
+			//Debug.Log("Beat Number: " + trackCurrentBeatNumber);
 			if(isDownBeat)
 			{
-				Debug.Log("Downbeetz");
+				//Debug.Log("Downbeetz");
 			}
 		}
 	}

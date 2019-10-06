@@ -16,10 +16,12 @@ public class collect : MonoBehaviour
         
     }
 
+	public SoundManagerScript sms;
     void OnTriggerEnter(Collider collect)
     {
         if (collect.gameObject.tag == "Player")
         {
+			sms.playerPowerup(1);
            gameObject.SetActive(false);
         }
     }

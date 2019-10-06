@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1359665464047901547}
   m_Layer: 0
   m_Name: falling cube
-  m_TagString: Terrain
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fa85a0de496f942829aa3be647fe620f, type: 2}
+  - {fileID: 2100000, guid: 9ef3606d559d5401289f624afeff3152, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,11 +220,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: falling cube
-      objectReference: {fileID: 0}
-    - target: {fileID: 8174587118688427624, guid: 145896dcf1291463ca0f14834dc1a321,
-        type: 3}
-      propertyPath: m_TagString
-      value: Terrain
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 145896dcf1291463ca0f14834dc1a321, type: 3}
