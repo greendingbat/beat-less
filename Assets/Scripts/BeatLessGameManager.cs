@@ -20,29 +20,45 @@ public class BeatLessGameManager : MonoBehaviour
 	public int trackLastBeatNumber = 0;
 	public int trackCurrentBeatNumber = 0;
 
-	public bool isDownBeat { get { return trackCurrentBeatNumber % 4 == 1; } }
-	public bool downBeatEventEntered = false;
-	public bool downBeatEventExited = false;
+	public bool isFirstBeat { get { return trackCurrentBeatNumber % 4 == 1; } }
+	public bool firstBeatEventEntered = false;
+	public bool firstBeatEventExited = false;
 
-    private int trackCalculatedBeatNumber { get { return Mathf.FloorToInt(trackPlayTime / beatLength); } }
+	public bool isSecondBeat { get { return trackCurrentBeatNumber % 4 == 2; } }
+	public bool secondBeatEventEntered = false;
+	public bool secondBeatEventExited = false;
+
+	public bool isThirdBeat { get { return trackCurrentBeatNumber % 4 == 3; } }
+	public bool thirdBeatEventEntered = false;
+	public bool thirdBeatEventExited = false;
+
+	public bool isFourthBeat { get { return trackCurrentBeatNumber % 4 == 0; } }
+	public bool fourthBeatEventEntered = false;
+	public bool fourthBeatEventExited = false;
+
+	private int trackCalculatedBeatNumber { get { return Mathf.FloorToInt(trackPlayTime / beatLength); } }
 
 	void Start()
 	{
 		// SetCursorEnabled(false);
 		trackEnabled = new List<bool>();
-		for(int i = 0; i < trackCountTotal; i++){
+		for (int i = 0; i < trackCountTotal; i++)
+		{
 			trackEnabled.Add(false);
 		}
 
 		beatLength = 60f / firstTrackBPM;
-		
+
 		hp = 1;
 	}
 
 	void Update()
 	{
 		SyncBeatNumber();
-		DownBeatEvents();
+		FirstBeatEvents();
+		SecondBeatEvents();
+		ThirdBeatEvents();
+		FourthBeatEvents();
 	}
 
 	private void SyncBeatNumber()
@@ -52,47 +68,157 @@ public class BeatLessGameManager : MonoBehaviour
 			trackLastBeatNumber = trackCurrentBeatNumber;
 			trackCurrentBeatNumber = trackCalculatedBeatNumber;
 			//Debug.Log("Beat Number: " + trackCurrentBeatNumber);
-			if(isDownBeat)
-			{
-				//Debug.Log("Downbeetz");
-			}
 		}
 	}
 
-	public delegate void DownBeatEnterDelegate();
-	public static event DownBeatEnterDelegate OnDownBeatEnter;
+	public delegate void FirstBeatEnterDelegate();
+	public static event FirstBeatEnterDelegate OnFirstBeatEnter;
 
-	public delegate void DownBeatStayDelegate();
-	public static event DownBeatStayDelegate OnDownBeatStay;
+	public delegate void FirstBeatStayDelegate();
+	public static event FirstBeatStayDelegate OnFirstBeatStay;
 
-	public delegate void DownBeatExitDelegate();
-	public static event DownBeatExitDelegate OnDownBeatExit;
+	public delegate void FirstBeatExitDelegate();
+	public static event FirstBeatExitDelegate OnFirstBeatExit;
 
-	private void DownBeatEvents()
+	private void FirstBeatEvents()
 	{
-		if (isDownBeat)
+		if (isFirstBeat)
 		{
-			if (downBeatEventEntered)
+			if (firstBeatEventEntered)
 			{
-				if (OnDownBeatStay != null)
-					OnDownBeatStay();
+				if (OnFirstBeatStay != null)
+					OnFirstBeatStay();
 			}
 			else
 			{
-				if (OnDownBeatEnter != null)
-					OnDownBeatEnter();
-				downBeatEventEntered = true;
+				if (OnFirstBeatEnter != null)
+					OnFirstBeatEnter();
+				firstBeatEventEntered = true;
 			}
 		}
 		else
 		{
-			if (downBeatEventExited)
+			if (firstBeatEventExited)
 			{
-				downBeatEventEntered = false;
+				firstBeatEventEntered = false;
 			}
 			else
 			{
-				downBeatEventExited = true;
+				firstBeatEventExited = true;
+			}
+		}
+	}
+
+	public delegate void SecondBeatEnterDelegate();
+	public static event SecondBeatEnterDelegate OnSecondBeatEnter;
+
+	public delegate void SecondBeatStayDelegate();
+	public static event SecondBeatStayDelegate OnSecondBeatStay;
+
+	public delegate void SecondBeatExitDelegate();
+	public static event SecondBeatExitDelegate OnSecondBeatExit;
+
+	private void SecondBeatEvents()
+	{
+		if (isSecondBeat)
+		{
+			if (secondBeatEventEntered)
+			{
+				if (OnSecondBeatStay != null)
+					OnSecondBeatStay();
+			}
+			else
+			{
+				if (OnSecondBeatEnter != null)
+					OnSecondBeatEnter();
+				secondBeatEventEntered = true;
+			}
+		}
+		else
+		{
+			if (secondBeatEventExited)
+			{
+				secondBeatEventEntered = false;
+			}
+			else
+			{
+				secondBeatEventExited = true;
+			}
+		}
+	}
+
+	public delegate void ThirdBeatEnterDelegate();
+	public static event ThirdBeatEnterDelegate OnThirdBeatEnter;
+
+	public delegate void ThirdBeatStayDelegate();
+	public static event ThirdBeatStayDelegate OnThirdBeatStay;
+
+	public delegate void ThirdBeatExitDelegate();
+	public static event ThirdBeatExitDelegate OnThirdBeatExit;
+
+	private void ThirdBeatEvents()
+	{
+		if (isThirdBeat)
+		{
+			if (thirdBeatEventEntered)
+			{
+				if (OnThirdBeatStay != null)
+					OnThirdBeatStay();
+			}
+			else
+			{
+				if (OnThirdBeatEnter != null)
+					OnThirdBeatEnter();
+				thirdBeatEventEntered = true;
+			}
+		}
+		else
+		{
+			if (thirdBeatEventExited)
+			{
+				thirdBeatEventEntered = false;
+			}
+			else
+			{
+				thirdBeatEventExited = true;
+			}
+		}
+	}
+
+	public delegate void FourthBeatEnterDelegate();
+	public static event FourthBeatEnterDelegate OnFourthBeatEnter;
+
+	public delegate void FourthBeatStayDelegate();
+	public static event FourthBeatStayDelegate OnFourthBeatStay;
+
+	public delegate void FourthBeatExitDelegate();
+	public static event FourthBeatExitDelegate OnFourthBeatExit;
+
+	private void FourthBeatEvents()
+	{
+		if (isFourthBeat)
+		{
+			if (fourthBeatEventEntered)
+			{
+				if (OnFourthBeatStay != null)
+					OnFourthBeatStay();
+			}
+			else
+			{
+				if (OnFourthBeatEnter != null)
+					OnFourthBeatEnter();
+				fourthBeatEventEntered = true;
+			}
+		}
+		else
+		{
+			if (fourthBeatEventExited)
+			{
+				fourthBeatEventEntered = false;
+			}
+			else
+			{
+				fourthBeatEventExited = true;
 			}
 		}
 	}

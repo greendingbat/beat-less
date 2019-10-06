@@ -7,6 +7,11 @@ public class DownObstacle : MonoBehaviour
 	[SerializeField] private Animator[] animators;
 	[SerializeField] private bool isDown = false;
 
+	[SerializeField] private bool firstBeat = false;
+	[SerializeField] private bool secondBeat = false;
+	[SerializeField] private bool thirdBeat = false;
+	[SerializeField] private bool fourthBeat = false;
+
 	void Start()
 	{
 		animators = GetComponentsInChildren<Animator>();
@@ -15,7 +20,14 @@ public class DownObstacle : MonoBehaviour
 			Debug.Log(animator.gameObject.name);
 			animator.SetBool("is_down", isDown);
 		}
-		BeatLessGameManager.OnDownBeatEnter += ToggleDown;
+		if (firstBeat)
+			BeatLessGameManager.OnFirstBeatEnter += ToggleDown;
+		if (secondBeat)
+			BeatLessGameManager.OnFirstBeatEnter += ToggleDown;
+		if (thirdBeat)
+			BeatLessGameManager.OnFirstBeatEnter += ToggleDown;
+		if (fourthBeat)
+			BeatLessGameManager.OnFirstBeatEnter += ToggleDown;
 	}
 
 	public void ToggleDown()
