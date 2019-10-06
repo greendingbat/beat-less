@@ -15,13 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 44
-    width: 1440
-    height: 856
+    y: 43.2
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,12 +42,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1440
-    height: 806
-  m_MinSize: {x: 508, y: 494}
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 97
+  controlID: 123
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,17 +63,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1148
+    x: 1136
     y: 0
-    width: 292
-    height: 806
-  m_MinSize: {x: 102, y: 122}
+    width: 400
+    height: 731
+  m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 12}
-  m_Selected: 1
+  - {fileID: 14}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -92,13 +91,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 284
-    height: 488
+    width: 281
+    height: 275
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -117,17 +116,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 488
-    width: 1148
-    height: 318
+    y: 275
+    width: 1136
+    height: 456
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,9 +148,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
-    height: 856
-  m_MinSize: {x: 950, y: 544}
+    width: 1536
+    height: 781
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -169,7 +169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -190,8 +190,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 836
-    width: 1440
+    y: 761
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -214,12 +214,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1148
-    height: 806
+    width: 1136
+    height: 731
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 52
+  controlID: 58
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,12 +239,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1148
-    height: 488
+    width: 1136
+    height: 275
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 53
+  controlID: 59
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,19 +260,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 284
+    x: 281
     y: 0
-    width: 864
-    height: 488
+    width: 855
+    height: 275
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,1436 +281,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: GitHub
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1148
-    y: 75
-    width: 290
-    height: 787
-  m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
-  initProjectView:
-    hasCompletedInitialCheck: 1
-    isUserDataPresent: 1
-    lastCheckUserChangedEvent:
-      updatedTimeString: 2019-10-04T22:02:17.378-07:00
-      cacheType: 8
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys:
-        - Remote branches
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 0
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:16.828-07:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2019-10-04T22:38:46.009-07:00
-      cacheType: 1
-    currentBranch:
-      name: master
-      tracking: 
-    currentRemote:
-      name: origin
-      url: git@github.com:glowurms/beat-less.git
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches:
-    - name: master
-      tracking: 
-    remoteBranches: []
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: 
-    commitMessage: 
-    currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-10-04T22:38:46.009-07:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:17.015-07:00
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:53.580-07:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 16d77671bbdd7013ae323ce5aec8dbfb53183e4f
-      mergeA: 
-      mergeB: 
-      authorName: Ian Glockner
-      authorEmail: ianglockner@gmail.com
-      commitEmail: ianglockner@gmail.com
-      commitName: Ian Glockner
-      summary: First commit
-      description: 
-      timeString: 2019-10-04T22:39:16.000-07:00
-      commitTimeString: 2019-10-04T22:39:16.000-07:00
-      changes:
-      - path: .vscode/settings.json
-        fullPath: /Users/ian/Documents/git/beat-less/.vscode/settings.json
-        projectPath: .vscode/settings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins.meta
-        projectPath: Assets/Plugins.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub.meta
-        projectPath: Assets/Plugins/GitHub.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor.meta
-        projectPath: Assets/Plugins/GitHub/Editor.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/System.Threading.dll
-        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/big-logo@2x.png
-        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/credits.txt
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/credits.txt
-        projectPath: Assets/Plugins/GitHub/Editor/credits.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/credits.txt.meta
-        projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/eula.txt
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/eula.txt
-        projectPath: Assets/Plugins/GitHub/Editor/eula.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/eula.txt.meta
-        projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.bundle
-        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/libsfw.so
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.so
-        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.so.meta
-        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/sfw.net.dll
-        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x64.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x64.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x86.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x86.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Scenes.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes.meta
-        projectPath: Assets/Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Scenes/SampleScene.unity
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes/SampleScene.unity
-        projectPath: Assets/Scenes/SampleScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/Scenes/SampleScene.unity.meta
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes/SampleScene.unity.meta
-        projectPath: Assets/Scenes/SampleScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages/manifest.json
-        fullPath: /Users/ian/Documents/git/beat-less/Packages/manifest.json
-        projectPath: Packages/manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/AudioManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/AudioManager.asset
-        projectPath: ProjectSettings/AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/ClusterInputManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ClusterInputManager.asset
-        projectPath: ProjectSettings/ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/DynamicsManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/DynamicsManager.asset
-        projectPath: ProjectSettings/DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/EditorBuildSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/EditorBuildSettings.asset
-        projectPath: ProjectSettings/EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/EditorSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/EditorSettings.asset
-        projectPath: ProjectSettings/EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/GraphicsSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/GraphicsSettings.asset
-        projectPath: ProjectSettings/GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/InputManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/InputManager.asset
-        projectPath: ProjectSettings/InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/NavMeshAreas.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/NavMeshAreas.asset
-        projectPath: ProjectSettings/NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/NetworkManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/NetworkManager.asset
-        projectPath: ProjectSettings/NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/Physics2DSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/Physics2DSettings.asset
-        projectPath: ProjectSettings/Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/PresetManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/PresetManager.asset
-        projectPath: ProjectSettings/PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/ProjectSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ProjectSettings.asset
-        projectPath: ProjectSettings/ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/ProjectVersion.txt
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ProjectVersion.txt
-        projectPath: ProjectSettings/ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/QualitySettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/QualitySettings.asset
-        projectPath: ProjectSettings/QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/TagManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/TagManager.asset
-        projectPath: ProjectSettings/TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/TimeManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/TimeManager.asset
-        projectPath: ProjectSettings/TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/UnityConnectSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/UnityConnectSettings.asset
-        projectPath: ProjectSettings/UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/VFXManager.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/VFXManager.asset
-        projectPath: ProjectSettings/VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings/XRSettings.asset
-        fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/XRSettings.asset
-        projectPath: ProjectSettings/XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    - commitID: d155a60096395e3be979b7abfe561453a3eb44e3
-      mergeA: 
-      mergeB: 
-      authorName: Ian Glockner
-      authorEmail: ianglockner@gmail.com
-      commitEmail: ianglockner@gmail.com
-      commitName: Ian Glockner
-      summary: Initial commit
-      description: 
-      timeString: 2019-10-04T22:02:23.000-07:00
-      commitTimeString: 2019-10-04T22:02:23.000-07:00
-      changes:
-      - path: .gitattributes
-        fullPath: /Users/ian/Documents/git/beat-less/.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: /Users/ian/Documents/git/beat-less/.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets/.gitignore
-        fullPath: /Users/ian/Documents/git/beat-less/Assets/.gitignore
-        projectPath: Assets/.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:17.013-07:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:17.044-07:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 16d77671bbdd7013ae323ce5aec8dbfb53183e4f
-        mergeA: 
-        mergeB: 
-        authorName: Ian Glockner
-        authorEmail: ianglockner@gmail.com
-        commitEmail: ianglockner@gmail.com
-        commitName: Ian Glockner
-        summary: First commit
-        description: 
-        timeString: 2019-10-04T22:39:16.000-07:00
-        commitTimeString: 2019-10-04T22:39:16.000-07:00
-        changes:
-        - path: .vscode/settings.json
-          fullPath: /Users/ian/Documents/git/beat-less/.vscode/settings.json
-          projectPath: .vscode/settings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins.meta
-          projectPath: Assets/Plugins.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub.meta
-          projectPath: Assets/Plugins/GitHub.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor.meta
-          projectPath: Assets/Plugins/GitHub/Editor.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/System.Threading.dll
-          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/big-logo@2x.png
-          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/credits.txt
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/credits.txt
-          projectPath: Assets/Plugins/GitHub/Editor/credits.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/credits.txt.meta
-          projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/eula.txt
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/eula.txt
-          projectPath: Assets/Plugins/GitHub/Editor/eula.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/eula.txt.meta
-          projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.bundle
-          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/libsfw.so
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.so
-          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/libsfw.so.meta
-          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/sfw.net.dll
-          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x64.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x64.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x86.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x86.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Scenes.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes.meta
-          projectPath: Assets/Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Scenes/SampleScene.unity
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes/SampleScene.unity
-          projectPath: Assets/Scenes/SampleScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/Scenes/SampleScene.unity.meta
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/Scenes/SampleScene.unity.meta
-          projectPath: Assets/Scenes/SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages/manifest.json
-          fullPath: /Users/ian/Documents/git/beat-less/Packages/manifest.json
-          projectPath: Packages/manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/AudioManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/AudioManager.asset
-          projectPath: ProjectSettings/AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/ClusterInputManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ClusterInputManager.asset
-          projectPath: ProjectSettings/ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/DynamicsManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/DynamicsManager.asset
-          projectPath: ProjectSettings/DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/EditorBuildSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/EditorBuildSettings.asset
-          projectPath: ProjectSettings/EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/EditorSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/EditorSettings.asset
-          projectPath: ProjectSettings/EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/GraphicsSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/GraphicsSettings.asset
-          projectPath: ProjectSettings/GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/InputManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/InputManager.asset
-          projectPath: ProjectSettings/InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/NavMeshAreas.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/NavMeshAreas.asset
-          projectPath: ProjectSettings/NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/NetworkManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/NetworkManager.asset
-          projectPath: ProjectSettings/NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/Physics2DSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/Physics2DSettings.asset
-          projectPath: ProjectSettings/Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/PresetManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/PresetManager.asset
-          projectPath: ProjectSettings/PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/ProjectSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ProjectSettings.asset
-          projectPath: ProjectSettings/ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/ProjectVersion.txt
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/ProjectVersion.txt
-          projectPath: ProjectSettings/ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/QualitySettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/QualitySettings.asset
-          projectPath: ProjectSettings/QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/TagManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/TagManager.asset
-          projectPath: ProjectSettings/TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/TimeManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/TimeManager.asset
-          projectPath: ProjectSettings/TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/UnityConnectSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/UnityConnectSettings.asset
-          projectPath: ProjectSettings/UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/VFXManager.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/VFXManager.asset
-          projectPath: ProjectSettings/VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings/XRSettings.asset
-          fullPath: /Users/ian/Documents/git/beat-less/ProjectSettings/XRSettings.asset
-          projectPath: ProjectSettings/XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - commitID: d155a60096395e3be979b7abfe561453a3eb44e3
-        mergeA: 
-        mergeB: 
-        authorName: Ian Glockner
-        authorEmail: ianglockner@gmail.com
-        commitEmail: ianglockner@gmail.com
-        commitName: Ian Glockner
-        summary: Initial commit
-        description: 
-        timeString: 2019-10-04T22:02:23.000-07:00
-        commitTimeString: 2019-10-04T22:02:23.000-07:00
-        changes:
-        - path: .gitattributes
-          fullPath: /Users/ian/Documents/git/beat-less/.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: /Users/ian/Documents/git/beat-less/.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets/.gitignore
-          fullPath: /Users/ian/Documents/git/beat-less/Assets/.gitignore
-          projectPath: Assets/.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
-      mergeA: 
-      mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
-      description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: /usr/bin/git
-      gitLfsPath: /Users/ian/Library/Application Support/GitHubUnity/git-lfs/git-lfs
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-    hasRemote: 1
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-10-04T22:40:13.912-07:00
-      cacheType: 1
-    metricsEnabled: 1
-    newRepositoryRemoteUrl: git@github.com:glowurms/beat-less.git
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: git@github.com:glowurms/beat-less.git
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: Ian Glockner
-      gitEmail: ianglockner@gmail.com
-      newGitName: Ian Glockner
-      newGitEmail: ianglockner@gmail.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2019-10-04T22:40:14.218-07:00
-        cacheType: 8
-    webTimeout: 3000
-    gitTimeout: 5000
-  locksView:
-    currentRemoteHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 00:00
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-10-04T22:38:46.009-07:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:53.580-07:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-10-04T22:39:17.015-07:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries: []
-    currentUsername: glowurms
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-  hasRemote: 1
-  currentRemoteName: origin
-  currentBranch: master
-  currentRemoteUrl: git@github.com:glowurms/beat-less.git
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
-  currentBranchContent:
-    m_Text: master
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-  currentRemoteUrlContent:
-    m_Text: git@github.com:glowurms/beat-less.git
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the origin remote
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-10-04T22:40:13.912-07:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-10-04T22:39:17.044-07:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-10-04T22:39:17.015-07:00
-    cacheType: 6
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0.5
-  appManagerProgressMessage: Setting up git...
-  connections: []
-  primaryConnectionUsername: glowurms
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 284
-    y: 75
-    width: 862
-    height: 469
+    x: 52.8
+    y: 539.2
+    width: 1148
+    height: 280
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 17434
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1733,9 +323,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 563
-    width: 1148
-    height: 299
+    y: 348
+    width: 1136
+    height: 437
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1750,20 +340,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Packages
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Packages
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/ian/Documents/git/beat-less
+  m_LastProjectPath: C:\Users\Matt\Documents\beatless\beat-less
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca2d0000
-    m_LastClickedID: 11722
-    m_ExpandedIDs: 00000000ca2d000000ca9a3b
+    m_SelectedIDs: ffffff7f
+    m_LastClickedID: 2147483647
+    m_ExpandedIDs: 00000000642e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1791,7 +381,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca2d0000
+    m_ExpandedIDs: 00000000642e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1835,7 +425,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1846,8 +436,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
---- !u!114 &15
+  m_DirectoriesAreaWidth: 156
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1868,10 +458,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1148
-    y: 75
-    width: 290
-    height: 787
+    x: 1136
+    y: 73.6
+    width: 398
+    height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -1885,7 +475,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1907,9 +497,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 75
-    width: 284
-    height: 469
+    y: 73.6
+    width: 281
+    height: 256
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -1932,7 +522,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1940,7 +530,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: f035ea4ef2ece48e2b55ebbbc24fc1e3
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1961,10 +551,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 284
-    y: 75
-    width: 862
-    height: 469
+    x: 280.80002
+    y: 73.6
+    width: 853
+    height: 256
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: b3324de4cb2434117a1ac1593c7cdb4f
@@ -1976,9 +566,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 1.1817763, y: 1.0739208, z: -7.175497}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 1.1817763, y: 1.0739208, z: -7.175497}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2011,9 +601,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 22
     speed: 2
-    m_Value: 10
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2039,7 +629,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2060,10 +650,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 280.80002
+    y: 73.6
+    width: 853
+    height: 256
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -2076,10 +666,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -386.5
-    m_VBaseRangeMax: 386.5
+    m_HBaseRangeMin: -426.5
+    m_HBaseRangeMax: 426.5
+    m_VBaseRangeMin: -119.5
+    m_VBaseRangeMax: 119.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2088,7 +678,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2097,30 +687,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1532
-      height: 773
+      width: 853
+      height: 239
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 386.5}
+    m_Translation: {x: 426.5, y: 119.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -386.5
-      width: 1532
-      height: 773
+      x: -426.5
+      y: -119.5
+      width: 853
+      height: 239
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 853, y: 256}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2141,8 +731,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 0
+    y: 348
+    width: 1136
+    height: 437
   m_ViewDataDictionary: {fileID: 0}
