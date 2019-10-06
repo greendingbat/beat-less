@@ -67,11 +67,11 @@ public class CharacterMovement : MonoBehaviour
 		horizVelocity = horizDir * speed;
 	}
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Terrain")
         {
-            Debug.Log("CharacterHitbox enter collision with a : " + collision.gameObject.tag);
+            //Debug.Log("CharacterHitbox enter collision with a : " + collision.gameObject.tag);
             grounded = true;
         }
     }
@@ -79,7 +79,7 @@ public class CharacterMovement : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Terrain")
 		{
-			Debug.Log("CharacterHitbox exit colliding with a : " + collision.gameObject.tag);
+			//Debug.Log("CharacterHitbox exit colliding with a : " + collision.gameObject.tag);
 			grounded = false;
 		}
 	}
