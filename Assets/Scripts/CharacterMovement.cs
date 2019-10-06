@@ -33,7 +33,7 @@ public class CharacterMovement : MonoBehaviour
 	[SerializeField] public bool grounded = false;
 	[SerializeField] public float lastGroundedTime = 0f;
 	[SerializeField] public Vector3 previousPosition;
-	public bool inKillbox;
+	public bool inDamage;
 	public SoundManagerScript sms;
 	public BeatLessGameManager blgm;
 
@@ -57,17 +57,17 @@ public class CharacterMovement : MonoBehaviour
 		rb.MovePosition(transform.position + new Vector3(calculatedVelocity.x, calculatedVelocity.y, 0f));
 		previousPosition = transform.position;
 		ResetStates();
-		inKillbox = false;
+		inDamage = false;
 	}
 
     void OnTriggerEnter(Collider hit)
     {
         if (hit.gameObject.tag == "KILLBOX")
         {
-			if (inKillbox) {
+			if (inDamage) {
 				return;
 			}
-			inKillbox = true;
+			inDamage = true;
             // teleport back to beginning if you fall off
             transform.position = spawnpoint.position;
             vertVelocity = Vector3.zero;
@@ -76,11 +76,6 @@ public class CharacterMovement : MonoBehaviour
 			
         }
 
-        if (hit.gameObject.tag == "Powerup")
-        {
-            // picking up powerups
-            //soundmanagerscript.
-        }
     }
 
     private void ResetStates()

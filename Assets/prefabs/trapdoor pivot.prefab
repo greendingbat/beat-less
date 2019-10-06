@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51336644858528683}
   - component: {fileID: 51336644858528680}
+  - component: {fileID: 8533075180851145935}
   m_Layer: 0
   m_Name: trapdoor pivot
   m_TagString: Terrain
@@ -51,6 +52,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8533075180851145935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51336644858528681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b130ba540beea649bbf8ce3cbab5c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animators: []
+  isOpen: 0
 --- !u!1 &51336644907933188
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,7 +80,7 @@ GameObject:
   - component: {fileID: 51336644907933190}
   m_Layer: 0
   m_Name: trapdoor
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
