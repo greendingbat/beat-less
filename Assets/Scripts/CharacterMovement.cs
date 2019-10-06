@@ -8,6 +8,8 @@ public class CharacterMovement : MonoBehaviour
 	[SerializeField] private Animator animator;
 	[SerializeField] private Rigidbody rb;
 
+    [SerializeField] private Transform spawnpoint;
+
 	[Header("Character Stats")]
 	[SerializeField] private float speed = 10f;
 	[SerializeField] private float jumpSpeed = 20f;
@@ -54,7 +56,23 @@ public class CharacterMovement : MonoBehaviour
 		ResetStates();
 	}
 
-	private void ResetStates()
+    void OnTriggerEnter(Collider hit)
+    {
+        if (hit.gameObject.tag == "KILLBOX")
+        {
+            // teleport back to beginning if you fall off
+            transform.position = spawnpoint.position;
+            vertVelocity = Vector3.zero;
+        }
+
+        if (hit.gameObject.tag == "Powerup")
+        {
+            // picking up powerups
+            //soundmanagerscript.
+        }
+    }
+
+    private void ResetStates()
 	{
 		horizDir = Vector3.zero;
 		jumpRequested = false;
