@@ -137,10 +137,10 @@ GameObject:
   - component: {fileID: 2799806076376448702}
   - component: {fileID: 2799806076376448703}
   - component: {fileID: 2799806076376448700}
-  - component: {fileID: 6343761176635304015}
+  - component: {fileID: 2246508943962050744}
   m_Layer: 0
   m_Name: spinning coin
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,7 +239,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6343761176635304015
+--- !u!114 &2246508943962050744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

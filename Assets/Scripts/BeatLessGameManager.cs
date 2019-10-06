@@ -5,6 +5,7 @@ using UnityEngine;
 public class BeatLessGameManager : MonoBehaviour
 {
 	public GameObject bob;
+	public int hp;
 
 	private int trackCountTotal = 5;
 	private List<bool> trackEnabled;
@@ -32,6 +33,8 @@ public class BeatLessGameManager : MonoBehaviour
 		}
 
 		beatLength = 60f / firstTrackBPM;
+		
+		hp = 1;
 	}
 
 	void Update()
